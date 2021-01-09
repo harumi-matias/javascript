@@ -1,0 +1,48 @@
+@font-face{
+    font-family: JosefinSans;
+    src: url(../fonts/JosefinSans-Medium.ttf);
+}
+
+html {
+    font-size: 62.5%; 
+    /* Normalizar para REMS */
+}
+
+body {
+font-family: JosefinSans, sans-serif;
+font-size: 1.6rem;
+}
+
+
+/* Principales */
+
+h1{
+    font-size: 4rem;
+}
+
+
+.centrar-texto{
+    text-align: center;
+}
+
+.boton{
+    color: white;
+    background-color: hotpink;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    display: flex;
+    border-radius: 4rem;
+    border: 1rem;
+    border-style: double;
+
+}
+
+.boton:hover{
+   background-color: indigo;
+}
+
+
